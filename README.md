@@ -9,12 +9,9 @@ Dieses Projekt implementiert und analysiert adversariale Angriffe auf ein traini
 - **`fgsm_attack.py`**: Implementiert den FGSM-Angriff und bietet Werkzeuge zur Erstellung adversarialer Beispiele.
 - **`utils.py`**: Stellt Hilfsfunktionen für die Datenvorverarbeitung, Evaluation und Visualisierung der Ergebnisse bereit.
 - **`main.py`**: Führt die gesamte Analyse aus, inklusive Modelltraining, Angriffsausführung und Ergebnisvisualisierung.
-- **`results/`**: Verzeichnis für gespeicherte Ergebnisse und generierte Plots.
-- **`fgsm_results.json`**: Enthält die gespeicherten Ergebnisse der FGSM-Angriffe.
-- **`README.md`**: Dokumentation des Projekts mit Anweisungen zur Nutzung.
+- **`adversarial_attacks.ipynb`**: Jupyter Notebook, das eine interaktive Umgebung für die Analyse bietet und die Ergebnisse schrittweise visualisiert.
 
 ---
-
 ## Voraussetzungen
 
 ### Installieren der benötigten Pakete
