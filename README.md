@@ -1,17 +1,24 @@
-# Adversarial Attack Analysis with FGSM
+# Analyse von Adversarialen Angriffen mit FGSM
 
-## Overview
-This project implements and analyzes adversarial attacks on a trained model using the Fast Gradient Sign Method (FGSM) attack. The implementation is designed to be modular and easy to extend for further analysis.
+## Übersicht
+Dieses Projekt implementiert und analysiert adversariale Angriffe auf ein trainiertes Modell mithilfe der **Fast Gradient Sign Method (FGSM)**. Die Implementierung ist modular aufgebaut und kann leicht erweitert werden, um zusätzliche Analysen durchzuführen.
 
-## Files
-1. **model.py**: Contains functions to train or load the model used for adversarial attack analysis.
-2. **fgsm_attack.py**: Implements the FGSM attack and provides utilities for crafting adversarial examples.
-3. **utils.py**: Provides helper functions for data preprocessing, evaluation, and visualization.
-4. **README.md**: Documentation for the project, including usage instructions and an overview of the structure.
+## Projektstruktur
 
-## Usage
+- **`model.py`**: Beinhaltet Funktionen, um das Modell zu trainieren oder ein bereits trainiertes Modell zu laden.
+- **`fgsm_attack.py`**: Implementiert den FGSM-Angriff und bietet Werkzeuge zur Erstellung adversarialer Beispiele.
+- **`utils.py`**: Stellt Hilfsfunktionen für die Datenvorverarbeitung, Evaluation und Visualisierung der Ergebnisse bereit.
+- **`main.py`**: Führt die gesamte Analyse aus, inklusive Modelltraining, Angriffsausführung und Ergebnisvisualisierung.
+- **`results/`**: Verzeichnis für gespeicherte Ergebnisse und generierte Plots.
+- **`fgsm_results.json`**: Enthält die gespeicherten Ergebnisse der FGSM-Angriffe.
+- **`README.md`**: Dokumentation des Projekts mit Anweisungen zur Nutzung.
 
-### Install Required Packages
-Run the following command to install dependencies:
+---
+
+## Voraussetzungen
+
+### Installieren der benötigten Pakete
+Führen Sie den folgenden Befehl aus, um die benötigten Python-Bibliotheken zu installieren:
+
 ```bash
 pip install tensorflow matplotlib numpy
